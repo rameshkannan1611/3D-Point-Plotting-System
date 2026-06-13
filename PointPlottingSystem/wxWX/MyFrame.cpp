@@ -73,19 +73,23 @@ void MyFrame::OnReadCSVAndAddPoints(wxCommandEvent&)
 	if (strCSV.empty())
 		return;
 
-	std::ifstream file("points.csv");
+	std::ifstream file(strCSV);
 
 	std::string line;
 
 	while (std::getline(file, line))
 	{
 		std::stringstream ss(line);
+		int ID;
 		float x, y, z;
+		float val;
 		char comma;
 
-		ss >> x >> comma
+		ss >> ID >> comma
+			>> x >> comma
 			>> y >> comma
-			>> z;
+			>> z >> comma
+			>> val;
 
 		canvas->AddPoint(x, y, z);
 	}
