@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="PointPlottingSystem/PointPlottingSystem.vcxproj" Id="abd552f8-6250-4a64-8208-63b93a13e271" />
+</Solution>

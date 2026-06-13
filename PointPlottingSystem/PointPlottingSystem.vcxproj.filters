@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="scr">
+      <UniqueIdentifier>{5ea6a633-7f65-480e-892a-2a0004ea3c3e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="scr\main.cpp">
+      <Filter>scr</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\glad.c" />
+    <ClCompile Include="lib\stb.cpp" />
+    <ClCompile Include="Structs\PointStruct.cpp" />
+    <ClCompile Include="Structs\DataStruct.cpp" />
+    <ClCompile Include="Structs\Point3D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Structs\PointStruct.h" />
+    <ClInclude Include="Structs\DataStruct.h" />
+    <ClInclude Include="Structs\Point3D.h" />
+  </ItemGroup>
+</Project>
