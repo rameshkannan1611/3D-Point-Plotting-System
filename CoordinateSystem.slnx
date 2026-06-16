@@ -3,5 +3,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="Algorithms/Algorithms.vcxproj" Id="00534bce-391b-4d82-a0d3-f8c68d54b2cc" />
   <Project Path="PointPlottingSystem/PointPlottingSystem.vcxproj" Id="abd552f8-6250-4a64-8208-63b93a13e271" />
+  <Project Path="Structs/Structs.vcxproj" Id="fb53bc83-1e11-4d24-9482-e5c9f16ba859" />
 </Solution>

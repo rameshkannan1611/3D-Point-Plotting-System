@@ -11,13 +11,11 @@
     </ClCompile>
     <ClCompile Include="lib\glad.c" />
     <ClCompile Include="lib\stb.cpp" />
-    <ClCompile Include="Structs\PointStruct.cpp" />
-    <ClCompile Include="Structs\DataStruct.cpp" />
-    <ClCompile Include="Structs\Point3D.cpp" />
+    <ClCompile Include="wxWX\MyFrame.cpp" />
+    <ClCompile Include="wxWX\MyGLCanvas.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Structs\PointStruct.h" />
-    <ClInclude Include="Structs\DataStruct.h" />
-    <ClInclude Include="Structs\Point3D.h" />
+    <ClInclude Include="wxWX\MyFrame.h" />
+    <ClInclude Include="wxWX\MyGLCanvas.h" />
   </ItemGroup>
 </Project>

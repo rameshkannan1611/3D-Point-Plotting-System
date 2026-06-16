@@ -1,3 +1,4 @@
+#include "pch.h"
 #include "PointStruct.h"
 #include "Point3D.h"
 
